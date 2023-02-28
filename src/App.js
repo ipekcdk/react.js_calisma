@@ -16,7 +16,6 @@ JSX kuralları:
 - Javascript ifadelerinin kullanımı
 - createElement() metodu
 */
-  m;
 
   return (
     /*return içeriği tek bir kapsayıcı alanda olmak zorunda, ya hepsini ortak bir div içine alırım ya da "<> </>" kullanırım;
