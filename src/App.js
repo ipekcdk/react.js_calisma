@@ -1,7 +1,13 @@
 //import React from "react";
 import Header from "./components/Header";
 import Login from "./components/Login";
+import User from "./components/User";
 
+// const user = {             --objeyi içerde tanımlamak yerine böyle de tanımlayabiliriz.
+//   name: "Onur Çıdık",
+//   city: "Adana",
+//   age: 28,
+// };
 const isLoggedIn = true;
 const name = "İpek";
 let surname = "Çıdık";
@@ -27,9 +33,9 @@ JSX kuralları:
     </>
     */
 
+    /* render işlemi
     <div>
       <div className="test">
-        {/* render işlemi */}
         {name} {surname}
         <div>
           {isLoggedIn ? (
@@ -45,6 +51,23 @@ JSX kuralları:
       </div>
       <label htmlFor="test">Test</label>
       <div>Selam</div>
+    </div>
+  */
+
+    <div>
+      {/* props yazımı 
+      <User name="İpek" city={"Adana"} age={21} />        //string dışındaki tüm veriler süslü parantez içerisinde yazılır.
+      <User name="Kerem" city={"Artvin"} age={22} />
+      */}
+
+      <User
+        data={{
+          name: "Onur Çıdık",
+          city: "Adana",
+          age: 28,
+        }}
+        friends={["Dila", "İrem", "Kerem"]}
+      />
     </div>
   );
 }

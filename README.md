@@ -1,7 +1,8 @@
 # Create React App
+
 npx create-react-app app_name\
 cd my_first_app\
-npm start
+npm start 
 
 # Getting Started with Create React App
 

@@ -9,3 +9,5 @@ function Login() {
 }
 
 export default Login;
+
+//her component'te bu yukarıdakileri yapmak zorundayız. rfce + tab kısayol
