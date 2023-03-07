@@ -8,15 +8,12 @@ const user = {
   age: 21,
 };
 
-{
-  /* PROPS- PROPERTIES (ÖZELLİKLER):*/
-}
+/* PROPS- PROPERTIES (ÖZELLİKLER):*/
+
 //amacı bir componenti render ederken onun görünümünü sağlayacak bilgileri vermek
 //bileşeninizin görüntüsü ilk kez oluşturulurken kulanılacak olan bilgiler her neyse onları göndermeniz ve bileşen üzerinde de "props" diye parametreyi alıp kullanmanız gerekir.
 
-{
-  /*ÇEŞİTLİ VERSİYONLAR;*/
-}
+/*Çeşitli versiyonları var;*/
 
 // function User(props) {
 //   console.log(props);
@@ -88,7 +85,8 @@ function User({ title, data, friends }) {
   );
 }
 
-//propTypes: şu propertynin şu veri tipinde gelmesi gerekiyor diye compenenti kullanacak kişilere bilgilendirme yapabiliriz. uyumsuz veri girilirse consoleda hata verir.
+//--> propTypes: şu propertynin şu veri tipinde gelmesi gerekiyor diye compenenti kullanacak kişilere bilgilendirme yapabiliriz. uyumsuz veri girilirse consoleda hata verir.
+
 // User.PropTypes = {
 //   name: PropTypes.string.isRequired,
 //   age: PropTypes.number,

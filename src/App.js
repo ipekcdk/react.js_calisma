@@ -2,6 +2,9 @@
 import Header from "./components/Header";
 import Login from "./components/Login";
 import User from "./components/User";
+import Counter from "./components/Counter";
+import User2 from "./components/User2";
+import Colors from "./components/Colors";
 
 // const user = {             --objeyi içerde tanımlamak yerine böyle de tanımlayabiliriz.
 //   name: "Onur Çıdık",
@@ -11,6 +14,7 @@ import User from "./components/User";
 const isLoggedIn = true;
 const name = "İpek";
 let surname = "Çıdık";
+
 function App() {
   /*return React.createElement("div", null, React.createElement(Header,null));  --JSX olmasaydı böyle yazmamız gerekirdi. Aşağıda işlemle bu aynı şeydir.
 JSX kuralları:
@@ -68,6 +72,9 @@ JSX kuralları:
         }}
         friends={["Dila", "İrem", "Kerem"]}
       />
+      <Counter />
+      <User2 />
+      <Colors />
     </div>
   );
 }
