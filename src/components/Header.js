@@ -10,6 +10,7 @@ return etmek.
 
 -Yazdığımız componenti çağırırken baş harfi büyük yazmamız gerekiyor. 
 yoksa html etiketi olarak algılar.
+
 */
 import React from "react";
 

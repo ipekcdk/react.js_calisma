@@ -102,7 +102,7 @@ function User({ title, data, friends }) {
 User.propTypes = {
   title: PropTypes.string,
   data: PropTypes.exact({
-    //exact: bana bir obje ve kstra özellik gelmeli
+    //exact: bana bir obje ve ekstra özellik gelmeli
     name: PropTypes.string,
     age: PropTypes.number,
     city: PropTypes.string,
