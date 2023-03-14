@@ -7,6 +7,7 @@ import User2 from "./components/User2";
 import Colors from "./components/Colors";
 import Form from "./components/Form";
 import Counter2 from "./components/Counter2";
+import Users from "./components/Users";
 
 // const user = {             --objeyi içerde tanımlamak yerine böyle de tanımlayabiliriz.
 //   name: "Onur Çıdık",
@@ -79,6 +80,7 @@ JSX kuralları:
       <Colors />
       <Form />
       <Counter2 />
+      <Users />
     </div>
   );
 }
